@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(103, 146, 146);
+}
+header{
+    color: aliceblue;
+    text-align: center;
+}
+section{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    margin: auto;
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 200px;
+    font-style: italic;
+}
+section div.foto img{
+    width: 300px;
+}
+

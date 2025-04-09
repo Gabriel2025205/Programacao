@@ -1,0 +1,40 @@
+body{
+    background-image: url(imagens/3D.png);
+}
+header{
+    color: rgb(0, 68, 255);
+    text-align: center;
+    box-shadow: 4px 4px 5px black;
+}
+section{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    margin: auto;
+    animation: piscar-border 15s infinite;
+}
+
+@keyframes piscar-border{
+      0% {
+        box-shadow: 0 0 10px 4px rgba(0, 247, 255, 0.8); 
+}  
+     50% { 
+        box-shadow: 0 0 10px 4px rgba(255, 0, 0, 0);
+     }
+     100% {
+        box-shadow: 0 0 10px 4px rgba(255, 0, 0, 0);
+     }
+    }
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+}
+section div.foto img{
+    width: 300px;
+}
+

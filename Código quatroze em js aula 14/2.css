@@ -1,0 +1,20 @@
+body{
+   background-color: black;
+}
+#nome{
+    color: rgb(0, 0, 0);
+   text-align: center;
+    margin-left: 400px;
+    border-radius: 10px;
+    margin-top: 150px;
+    background-color: aliceblue;
+    width: 550px;
+    padding:5px
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 10px;  
+}

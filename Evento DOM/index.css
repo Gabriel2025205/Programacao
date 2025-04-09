@@ -1,0 +1,18 @@
+#area{
+    background-color: chartreuse;
+    color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin-left: 560px;
+    margin-top: 160px;
+}
+body{
+    background: rgb(0, 255, 234);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}

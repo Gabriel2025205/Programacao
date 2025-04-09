@@ -1,0 +1,27 @@
+
+body{
+    background-image: linear-gradient(to bottom, red, black);
+    height: 50%;
+   background-attachment: fixed ;
+   background-image: url(imagens/leao.jpg);
+}
+h1{
+    color: rgb(233, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    text-shadow: 5px 5px 5px black;
+}
+#acessar{
+    margin-left: 500px;
+    margin-top: 150px;
+    background-color: aliceblue;
+    margin-right: 50px;
+    height: 100px;
+    width: 300px;
+    padding: 30px;
+    border-radius:50px;
+    text-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.767);
+}
+

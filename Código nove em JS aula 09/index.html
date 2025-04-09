@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="imagens/lendario.png" type="image/x-icon">
+    <title>Verificador De Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+        <p>
+           ANO DE NASCIMENTO:
+           <input type="text" name="txtano" id="txtano" min="0"> 
+        </p>
+        <p>
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+        <p class="botao">
+            <input type="button" value="verificar" onclick="clicar()">
+        </p>
+        </div>
+        <div id="res">
+           <strong>Preencha os dados acima para vê o resultado!</strong>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;<a href="https://www.instagram.com/" target="_blank">Biell_Oliveira03</a></p>
+    </footer>
+
+</body>
+
+<script src="index.js"></script>
+</html>

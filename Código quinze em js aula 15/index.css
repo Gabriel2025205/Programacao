@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(98, 0, 255);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(121, 0, 201);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px black;
+}
+img{
+    width: 60px;
+    margin-left: 410px;
+   position: relative;
+   top: -80px;
+}
+#imagem{
+    position:relative ;
+    top: -64px;
+    margin-left: 460px;
+}

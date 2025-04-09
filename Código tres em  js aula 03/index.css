@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    margin-top: 240px;
+}
+img{
+    width: 300px;
+}
